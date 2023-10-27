@@ -1,4 +1,4 @@
-# Project Name
+# ROCK PAPER SCISSORS
 
 > One paragraph statement about the project.
 
