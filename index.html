@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock, Paper,scissors</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="item-container">
+        <img class="logo" src="image/logo.svg" alt="logo" />
+      </div>
+      <div class="rounds">
+        <p class="header">SCORE</p>
+        <p class="sub-header">12</p>
+      </div>
+    </div>
+    <div class="main-container">
+      <img class="bg-triangle" src="image/bg-triangle.svg" alt="triangle" />
+      <div class="rock-container items">
+        <div class="circle rock-circle">
+          <div class="inner-circle">
+            <img class="rock-icon" id="Rock" src="image/Rock.svg" alt="rock-icon" />
+          </div>
+        </div>
+      </div>
+      <div class="sub-container">
+        <div class="paper-container items">
+          <div class="circle paper-circle">
+            <div class="inner-circle">
+              <img class="paper-icon" id="Paper" src="image/Paper.svg" alt="paper-icon" />
+            </div>
+          </div>
+        </div>
+        <div class="scissors-container items">
+          <div class="circle scissors-circle">
+            <div class="inner-circle">
+              <img
+                class="scissors-icon"
+                id="Scissors"
+                src="image/Scissors.svg"
+                alt="scissors-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="computer-result"></div>
+    <div class="rule-btn">
+      <p class="rule">RULES</p>
+    </div>
+    <div class="rule-container">
+      <div class="rule">
+        <div class="sub-rules">
+          <p class="rules-title">RULES</p>
+          <img class="close-rule" src="image/icon-close.svg" alt="icon-rule" />
+        </div>
+        <img class="rule-image" src="image/image-rules.svg" alt="rules" />
+        <img class="close-rule2" src="image/icon-close.svg" alt="icon-rule" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
