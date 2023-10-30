@@ -16,7 +16,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "htmlhint": "^1.1.4",
-    "prettier": "2.8.8",
+    "prettier": "^3.0.3",
     "puppeteer": "^20.4.0",
     "stylelint": "^15.11.0",
     "stylelint-config-prettier": "^9.0.5",
