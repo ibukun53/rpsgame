@@ -1,8 +1,3 @@
-const startApp = () => {
-  const body = document.querySelector('body');
-  body.innerHTML = '<h2>JAVASCRIPT ENABLED</h2>';
-};
-
 const ruleContainer = document.querySelector('.rule-container');
 const ruleBtn = document.querySelector('.rule-btn');
 const closeRuleDesktop = document.querySelector('.close-rule');
@@ -18,5 +13,3 @@ const rule = () => {
 ruleBtn.addEventListener('click', rule);
 closeRuleDesktop.addEventListener('click', rule);
 closeRuleMobile.addEventListener('click', rule);
-
-startApp();
