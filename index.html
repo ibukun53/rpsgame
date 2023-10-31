@@ -1,9 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock, Paper,scissors</title>
+    <link href="css/index.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="item-container">
+        <img class="logo" src="images/logo.svg" title="logo for the page" alt="logo" />
+      </div>
+      <div class="rounds">
+        <p class="header">SCORE</p>
+        <p class="sub-header">12</p>
+      </div>
+    </div>
+    <div class="main-container">
+      <img class="bg-triangle" src="images/bg-triangle.svg" title="triangle image" alt="triangle" />
+      <div class="rock-container items">
+        <div class="circle rock-circle">
+          <div class="inner-circle">
+            <img
+              class="rock-icon"
+              id="rock"
+              src="images/Rock.svg"
+              title="rock image"
+              alt="rock-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="sub-container">
+        <div class="paper-container items">
+          <div class="circle paper-circle">
+            <div class="inner-circle">
+              <img
+                class="paper-icon"
+                id="paper"
+                src="images/Paper.svg"
+                title="paper image"
+                alt="paper-icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="scissors-container items">
+          <div class="circle scissors-circle">
+            <div class="inner-circle">
+              <img
+                class="scissors-icon"
+                id="scissors"
+                src="images/Scissors.svg"
+                title="scissors image"
+                alt="scissors-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="computer-result"></div>
+    <div class="rule-btn">
+      <p class="rule">RULES</p>
+    </div>
+    <div class="rule-container">
+      <div class="rule">
+        <div class="sub-rules">
+          <p class="rules-title">RULES</p>
+          <img
+            class="close-rule"
+            src="images/icon-close.svg"
+            title="close icon image"
+            alt="icon-rule"
+          />
+        </div>
+        <img class="rule-image" src="images/image-rules.svg" title="rulesimage" alt="rules" />
+        <img class="close-rule2" src="images/icon-close.svg" title="close image" alt="icon-rule" />
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
 </html>
